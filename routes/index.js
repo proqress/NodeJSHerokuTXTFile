@@ -5,7 +5,7 @@ var fs = require('fs');
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: 'IoT IYTE',
+    title: 'IoT',
     condition: true,
     anyArray: [1, 2, 3]
   });
